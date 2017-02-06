@@ -21,7 +21,7 @@ public class AddTypeActivity extends Activity {
 	private EditText xianmu, gongjia;
 	private MyDatabase mydatabase;
 	private ArrayAmSQL myarrayam;
-	private  int a=5;
+	
 	/**
 	 * ATTENTION: This was auto-generated to implement the App Indexing API.
 	 * See https://g.co/AppIndexing/AndroidStudio for more information.
