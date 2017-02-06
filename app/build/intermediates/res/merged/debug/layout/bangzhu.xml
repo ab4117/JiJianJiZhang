@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/blue_bg">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<ImageButton
+				android:layout_height="45dp"
+				android:layout_width="50dp"
+				android:id="@+id/ImageButton1"
+				android:src="@drawable/abc"
+				android:background="@drawable/but_fanhui"
+				android:layout_margin="3dp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="帮助"
+				android:layout_width="match_parent"
+				android:gravity="left|center"
+				android:textColor="#1A18B5"
+				android:textSize="21sp"
+				android:paddingLeft="0dp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="40dp"
+			android:text="计件记账计算方式"
+			android:layout_width="match_parent"
+			android:gravity="left|center"
+			android:textColor="#3A3837"
+			android:textSize="18sp"
+			android:paddingLeft="15dp"
+			android:background="#773224CA"
+			android:layout_marginTop="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:gravity="top"
+			android:textColor="#3A3837"
+			android:textSize="17sp"
+			android:text="统计每个项目的数量，然后乘以项目单价，得出工资。"
+			android:layout_marginLeft="3dp"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

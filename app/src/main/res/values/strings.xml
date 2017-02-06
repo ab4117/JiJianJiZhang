@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+	<string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<drawable name="blue_color">#31a4d6</drawable>
+    <drawable name="blue_selected_color">#1398d6</drawable>
+    <drawable name="orange_color">#e57155</drawable>
+    <drawable name="orange_selector_color">#d6583a</drawable>
+	
+    <string name="app_name">计件记账</string>
+	<string name="planet_prompt">菜单</string>
+	<string-array name="planets_array">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_gravity="top"
+	android:id="@+id/listmingxi1LinearLayout1"
+	android:background="@drawable/butmingxi">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:textSize="15sp"
+		android:textColor="#494745"
+		android:padding="2dp"
+		android:gravity="center"
+		android:textStyle="bold|normal"
+		android:layout_weight="1.0"
+		android:id="@+id/listmingxi1TextView1"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:textSize="15sp"
+		android:textColor="#243799"
+		android:padding="2dp"
+		android:gravity="center"
+		android:layout_weight="1.0"
+		android:textStyle="bold|italic|normal"
+		android:id="@+id/listmingxi1TextView2"/>
+
+</LinearLayout>
+

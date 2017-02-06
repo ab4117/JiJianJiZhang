@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:id="@+id/LinearLayout02"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/TextView01"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="项目:"
+			android:minWidth="90dip"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#5B5909"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp"/>
+
+		<EditText
+			android:textCursorDrawable="@null"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:hint="请输入项目名称"
+			android:gravity="center"
+			android:background="@drawable/anniu5"
+			android:textColor="#211E1E"
+			android:id="@+id/shuru2EditText1"/>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout03"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/TextView03"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="单价:"
+			android:minWidth="90dip"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#655508"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp"/>
+
+		<EditText
+			android:textCursorDrawable="@null"
+			android:inputType="numberDecimal"
+			android:maxLength="8"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="0.00元"
+			android:gravity="center"
+			android:background="@drawable/anniu5"
+			android:textColor="#262323"
+			android:id="@+id/shuru2EditText2"/>
+
+	</FrameLayout>
+
+</LinearLayout>
+

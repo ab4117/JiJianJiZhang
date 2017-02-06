@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/bg"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_height="45dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:divider="#005880"
+		android:dividerHeight="2px"
+		android:background="#EACE54">
+
+		<ImageButton
+			android:layout_height="match_parent"
+			android:layout_width="50dp"
+			android:id="@+id/ImageButton1"
+			android:src="@drawable/abc"
+			android:background="@drawable/but_fanhui"
+			android:layout_margin="3dp"/>
+
+		<TextView
+			android:text="流水统计"
+			android:layout_width="match_parent"
+			android:gravity="left|center"
+			android:textColor="#1D189F"
+			android:textSize="19sp"
+			android:layout_height="match_parent"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_weight="5"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:padding="10dp"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/date"
+			android:text="开始日期"
+			android:padding="12dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/anniu4"
+			android:textColor="#3C3CD1"
+			android:textSize="17sp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="至"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:padding="13dp"
+			android:textSize="17sp"
+			android:textColor="#B18217"/>
+
+		<Button
+			android:id="@+id/date1"
+			android:text="结束日期"
+			android:padding="13dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/anniu4"
+			android:textColor="#4B4EDC"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_weight="3"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:gravity="bottom|center">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_marginBottom="3dp">
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="福利扣费"
+				android:textColor="#30308D"
+				android:background="@drawable/anniu4"
+				android:id="@+id/shijianButton3"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="35dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#A8D0BA"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp">
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/shijianCheckBox1"
+				android:text="勤工奖"
+				android:textColor="#0603E4"
+				android:layout_weight="1.0"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/shijianCheckBox2"
+				android:text="福利津贴"
+				android:textColor="#1900E6"
+				android:layout_weight="1.0"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/shijianCheckBox3"
+				android:text="其它津贴"
+				android:textColor="#532DD8"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="35dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#C1C087"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp">
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="食宿扣费"
+				android:textColor="#4E00E6"
+				android:layout_weight="1.0"
+				android:id="@+id/shijianCheckBox4"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="特殊扣费"
+				android:textColor="#4936E6"
+				android:layout_weight="1.0"
+				android:id="@+id/shijianCheckBox5"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="其它扣费"
+				android:textColor="#532DD8"
+				android:layout_weight="1.0"
+				android:id="@+id/shijianCheckBox6"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:background="@drawable/anniu4"
+				android:textSize="20dip"
+				android:text="上月"
+				android:id="@+id/shijianButton1"
+				android:textColor="#5D29B0"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:background="@drawable/anniu4"
+				android:textSize="20dip"
+				android:text="下月"
+				android:id="@+id/shijianButton2"
+				android:layout_marginLeft="10dp"
+				android:textColor="#521CB0"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_weight="5"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:gravity="bottom">
+
+		<Button
+			android:id="@+id/queding"
+			android:layout_weight="1"
+			android:layout_width="fill_parent"
+			android:layout_height="50dip"
+			android:textStyle="bold"
+			android:background="@drawable/anniu2"
+			android:textSize="20dip"
+			android:text="确定"
+			android:textColor="#5724BA"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

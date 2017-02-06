@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/blue_bg">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="top"
+		android:background="@drawable/c19">
+
+		<Button
+			android:text="开始日期"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#B5B5B5"
+			android:textSize="17sp"
+			android:id="@+id/huapingButton1"
+			android:layout_weight="1.0"
+			android:background="#00000000"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="至"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:textSize="17sp"
+			android:textColor="#B18217"/>
+
+		<Button
+			android:text="结束日期"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#B6B5B2"
+			android:textSize="17sp"
+			android:id="@+id/huapingButton2"
+			android:layout_weight="1.0"
+			android:background="#00000000"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:id="@+id/huapingLinearLayout1"
+		android:background="@drawable/c19">
+
+		<Spinner
+			android:layout_height="wrap_content"
+			android:textColor="#4D70DF"
+			android:layout_width="match_parent"
+			android:gravity="right|center"
+			android:layout_weight="1.0"
+			android:id="@+id/huapingSpinner1"
+			android:background="#00000000"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="查询"
+			android:layout_width="match_parent"
+			android:id="@+id/huapingButton3"
+			android:layout_weight="1"
+			android:textColor="#E9BC3B"
+			android:textSize="15sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0">
+
+		<android.support.v4.view.ViewPager
+			android:id="@+id/viewpager"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<android.support.v4.view.PagerTabStrip
+				android:textColor="#E9BC3B"
+				android:id="@+id/pagertab"
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:layout_gravity="top"
+				android:background="@drawable/c19"/>
+
+		</android.support.v4.view.ViewPager>
+
+	</LinearLayout>
+
+</LinearLayout>
+

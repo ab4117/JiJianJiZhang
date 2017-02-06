@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="35dp"
+		android:text="备份文件"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:textStyle="bold|normal"
+		android:textSize="18sp"/>
+
+	<ListView
+		android:fadingEdge="vertical"
+		android:fadingEdgeLength="2px"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:textColor="#000000"
+		android:layout_weight="1"
+		android:scrollingCache="false"
+		android:divider="#008800"
+		android:dividerHeight="1px"
+		android:layout_margin="1dip"
+		android:id="@+id/beifenListView1">
+
+	</ListView>
+
+</LinearLayout>
+

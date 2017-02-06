@@ -1,0 +1,15 @@
+<resources>   
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <style name="AppThemea" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="Theme.DoNotDim" parent="@android:style/Theme.Holo.Light">
+    <item name="android:backgroundDimEnabled">false</item>
+	</style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

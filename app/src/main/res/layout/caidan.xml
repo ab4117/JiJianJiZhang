@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:id="@+id/caidanLinearLayout1">
+
+			<ImageButton
+				android:layout_height="45dp"
+				android:layout_width="50dp"
+				android:id="@+id/ImageButton1"
+				android:src="@drawable/abc"
+				android:background="@drawable/but_fanhui"
+				android:layout_margin="3dp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="记账"
+				android:layout_width="match_parent"
+				android:textColor="#FCFBFF"
+				android:textSize="20sp"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="left|center"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:paddingLeft="10dp"
+			android:padding="10dp"
+			android:layout_margin="10dp"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<Button
+				android:id="@+id/but1"
+				android:text="记账"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18dip"
+				android:gravity="center"
+				android:textColor="#F9F9F9"
+				android:drawableTop="@drawable/g1"
+				android:background="@drawable/anniu"
+				android:layout_margin="3dp"
+				android:padding="8dp"
+				android:layout_weight="1.0"
+				android:layout_marginRight="10dp"/>
+
+			<Button
+				android:id="@+id/but2"
+				android:text="明细"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18dip"
+				android:gravity="center"
+				android:textColor="#FFFFFD"
+				android:drawableTop="@drawable/g2"
+				android:background="@drawable/anniu"
+				android:layout_margin="3dp"
+				android:padding="8dp"
+				android:layout_weight="1.0"
+				android:layout_marginLeft="10dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:paddingLeft="10dp"
+			android:layout_margin="10dp"
+			android:layout_weight="1.0">
+
+			<Button
+				android:text="项目"
+				android:id="@+id/but3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18dip"
+				android:gravity="center"
+				android:drawableTop="@drawable/g3"
+				android:textColor="#F7F7F7"
+				android:background="@drawable/anniu"
+				android:layout_margin="3dp"
+				android:padding="8dp"
+				android:layout_weight="1.0"
+				android:layout_marginRight="10dp"/>
+
+			<Button
+				android:text="设置"
+				android:id="@+id/but4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18dip"
+				android:gravity="center"
+				android:drawableTop="@drawable/g4"
+				android:textColor="#F7F7F7"
+				android:background="@drawable/anniu"
+				android:layout_margin="3dp"
+				android:padding="8dp"
+				android:layout_weight="1.0"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="21dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/caidanLinearLayout2"/>
+
+</LinearLayout>
+

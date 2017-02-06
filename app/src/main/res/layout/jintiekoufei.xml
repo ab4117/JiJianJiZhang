@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#E3E3E3">
+
+	<LinearLayout
+		android:background="#5863F0"
+		android:layout_height="45dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<ImageButton
+			android:layout_height="45dp"
+			android:layout_width="50dp"
+			android:id="@+id/ImageButton1"
+			android:src="@drawable/abc"
+			android:background="@drawable/but_fanhui"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="津贴扣费"
+			android:layout_width="match_parent"
+			
+			android:gravity="left|center"
+			android:textColor="#E3EE3F"
+			android:textSize="18sp"/>
+
+	</LinearLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout05"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+		android:background="@drawable/anniu6"
+		android:layout_marginTop="16dp">
+
+		<TextView
+			android:id="@+id/vdate"
+			android:textColor="#6A62EB"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="勤工奖"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp">
+
+		</TextView>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="日期"
+			android:textColor="#30308D"
+			android:background="@drawable/anniu5"
+			android:id="@+id/jintiekoufeiButton1"/>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout05"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/vdate"
+			android:textColor="#6A62EB"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="福利津贴"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp">
+
+		</TextView>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="日期"
+			android:textColor="#30308D"
+			android:background="@drawable/anniu5"
+			android:id="@+id/jintiekoufeiButton2"/>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout05"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/vdate"
+			android:textColor="#6A62EB"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="其它津贴"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp">
+
+		</TextView>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="日期"
+			android:textColor="#30308D"
+			android:background="@drawable/anniu5"
+			android:id="@+id/jintiekoufeiButton3"/>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout05"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/vdate"
+			android:textColor="#6A62EB"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="食宿扣费"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp">
+
+		</TextView>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="日期"
+			android:textColor="#30308D"
+			android:background="@drawable/anniu5"
+			android:id="@+id/jintiekoufeiButton4"/>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout05"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/vdate"
+			android:textColor="#6A62EB"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="特殊扣费"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp">
+
+		</TextView>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="日期"
+			android:textColor="#30308D"
+			android:background="@drawable/anniu5"
+			android:id="@+id/jintiekoufeiButton5"/>
+
+	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/LinearLayout05"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp"
+		android:background="@drawable/anniu6">
+
+		<TextView
+			android:id="@+id/vdate"
+			android:textColor="#6A62EB"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="其它扣费"
+			android:gravity="left|center"
+			android:layout_marginLeft="10dp">
+
+		</TextView>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="18sp"
+			android:text="日期"
+			android:textColor="#30308D"
+			android:background="@drawable/anniu5"
+			android:id="@+id/jintiekoufeiButton6"/>
+
+	</FrameLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg"
+	android:layout_weight="1.0">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="45dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#107B2F">
+
+			<ImageButton
+				android:layout_height="45dp"
+				android:layout_width="50dp"
+				android:id="@+id/ImageButton1"
+				android:src="@drawable/abc"
+				android:background="@drawable/but_fanhui"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="设置"
+				android:layout_width="match_parent"
+				android:textColor="#F0BF59"
+				android:gravity="left|center"
+				android:textSize="19sp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="数据设置"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:textColor="#D4CF1A"
+			android:background="#107B2F"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="3dp">
+
+		<Button
+			android:layout_height="45dp"
+			android:text="数据备份"
+			android:layout_width="match_parent"
+			android:background="@drawable/shezi"
+			android:layout_weight="1"
+			android:textSize="20sp"
+			android:textColor="#4C4C51"
+			android:textStyle="bold|normal"
+			android:id="@+id/sheziButton1"/>
+
+		<Button
+			android:layout_height="45dp"
+			android:text="数据还原"
+			android:layout_width="match_parent"
+			android:layout_weight="1"
+			android:background="@drawable/shezi"
+			android:textSize="20sp"
+			android:textColor="#4C4C51"
+			android:textStyle="bold|normal"
+			android:id="@+id/sheziButton2"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="其它"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:textColor="#D4CF1A"
+		android:background="#107B2F"
+		android:layout_margin="3dp"/>
+
+	<Button
+		android:layout_height="45dp"
+		android:text="新增用户"
+		android:layout_width="match_parent"
+		android:background="@drawable/anniu7"
+		android:textSize="18sp"
+		android:textColor="#655508"
+		android:gravity="center"
+		android:id="@+id/sheziButton6"/>
+
+	<Button
+		android:layout_height="45dp"
+		android:text="意见反馈"
+		android:layout_width="match_parent"
+		android:background="@drawable/anniu7"
+		android:textSize="18sp"
+		android:textColor="#655508"
+		android:gravity="center"
+		android:id="@+id/sheziButton4"/>
+
+	<Button
+		android:layout_height="45dp"
+		android:text="帮助说明"
+		android:layout_width="match_parent"
+		android:background="@drawable/anniu7"
+		android:textSize="18sp"
+		android:textColor="#655508"
+		android:gravity="center"
+		android:id="@+id/sheziButton3"/>
+
+	<Button
+		android:layout_height="45dp"
+		android:text="关于"
+		android:layout_width="match_parent"
+		android:background="@drawable/anniu7"
+		android:textSize="18sp"
+		android:textColor="#655508"
+		android:gravity="center"
+		android:id="@+id/sheziButton5"/>
+
+</LinearLayout>
+

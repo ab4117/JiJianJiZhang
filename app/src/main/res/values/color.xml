@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="beijin">#ff9900</color>
+
+    <color name="anniu">#FFfC00</color>
+
+    <color name="title">#A0ffff00</color>
+
+    <color name="baise">#ffec00</color>
+
+    <color name="a">#FFEC00</color>
+
+    <color name="t">#5b5909</color>
+	<color name="but1">#E5B265</color>
+
+    <color name="but2">#E88179</color>
+	<color name="mingxi1">#F99570</color>
+	<color name="mingxi2">#F7693F</color>
+	<color name="fanhui1">#00000000</color>
+	<color name="fanhui2">#75EECC</color>
+</resources>
