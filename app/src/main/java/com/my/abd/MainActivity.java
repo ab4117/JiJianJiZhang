@@ -10,8 +10,12 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
-/**菜单界面
- */
+/* 作者：天下
+*  类的说明：
+*  创建日期：2017/2/9 22:01
+*  修改日期：2017/2/9 22:01
+*/
+
 public class MainActivity extends Activity
 {
 	@Override
@@ -33,6 +37,8 @@ public class MainActivity extends Activity
 		ImageButton butFanHui=(ImageButton)findViewById(R.id.ImageButton1);
 		butFanHui.setOnClickListener(listener);
 	}
+
+
 	//按钮事件
 	private OnClickListener listener = new OnClickListener() 
 	{
@@ -43,7 +49,7 @@ public class MainActivity extends Activity
 
 				case R.id.but1:
 //					跳转记录界面
-					Intent(MainActivity.this,InputActivity.class);
+					Intent(MainActivity.this,JiLuActivity.class);
 //					overridePendingTransition(android.R.anim.slide_in_left,android. R.anim.slide_out_right);					
 					break;
 				case R.id.but2:
@@ -56,7 +62,7 @@ public class MainActivity extends Activity
 					break;
 				case R.id.but4:
 //					跳转设置界面
-					Intent(MainActivity.this, InstallActivity.class);
+					Intent(MainActivity.this, SheZhiActivity.class);
 					break;
 				case R.id.ImageButton1 :
 //					返回
@@ -86,7 +92,12 @@ public class MainActivity extends Activity
 		}
 		return super.onKeyDown(keyCode, event);
 	}
-	//activity跳转 1 Context 2class
+
+	/**
+	 * 方法说明：Activity跳转
+	 * @param c
+	 * @param cls
+     */
 	public void Intent(Context c,java.lang.Class<?> cls)
 	{
 		Intent intent1 = new Intent();

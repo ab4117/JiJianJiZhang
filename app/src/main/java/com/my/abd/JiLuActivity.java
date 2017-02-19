@@ -2,7 +2,6 @@ package com.my.abd;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
-import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +14,6 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -27,7 +25,7 @@ import com.my.abd.sql.UserSql;
 /**
  * 记录界面
  */
-public class InputActivity extends Activity {
+public class JiLuActivity extends Activity {
 	static final int DATE_DIALOG_ID = 0;
 
 	private MyDate mydate;
@@ -106,7 +104,7 @@ public class InputActivity extends Activity {
 			case R.id.jishuButton3:
 				Intent intent = new Intent();
 				Bundle mBundle = new Bundle();
-				intent.setClass(InputActivity.this, HuaPing.class);
+				intent.setClass(JiLuActivity.this, HuaPing.class);
 				mBundle.putIntArray("riqi", mydate.getShiJian());
 				mBundle.putIntArray("riqi1", mydate.getShiJian());
 				// 压入数据
@@ -146,7 +144,7 @@ public class InputActivity extends Activity {
 //	日期控件
 	public void dateDialog(){
 		int[] int_shijian = mydate.getShiJian();
-		new DatePickerDialog(InputActivity.this,
+		new DatePickerDialog(JiLuActivity.this,
 				mDateSetListener, int_shijian[0],
 				int_shijian[1], int_shijian[2]).show();
 	}

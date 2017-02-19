@@ -6,10 +6,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ImageButton;
-/**帮助界面*/
+/* 作者：天下
+*  类的说明：关于界面
+*  创建日期：2017/2/10 22:57
+*  修改日期：2017/2/10 22:57
+*/
 public class GuanYu extends Activity
 {
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
 	{

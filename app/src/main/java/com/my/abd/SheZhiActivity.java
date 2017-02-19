@@ -15,7 +15,7 @@ import com.my.abd.files.BeiFen;
 import com.my.abd.files.HuanYuan;
 /**设置界面
  */
-public class InstallActivity extends Activity
+public class SheZhiActivity extends Activity
 {
 	private ProgressDialog m_pDialog;
 
@@ -62,7 +62,7 @@ public class InstallActivity extends Activity
 				public void onClick(View v)
 				{
 					po();//进度条对话框
-					BeiFen beifen=new BeiFen(InstallActivity.this,mHandler);
+					BeiFen beifen=new BeiFen(SheZhiActivity.this,mHandler);
 					Thread newThread = new Thread(beifen);
 					newThread.start();
 				}
@@ -72,7 +72,7 @@ public class InstallActivity extends Activity
 				public void onClick(View v)
 				{
 					po();//进度条对话框
-					HuanYuan huanyuand=new HuanYuan(InstallActivity.this,mHandler);
+					HuanYuan huanyuand=new HuanYuan(SheZhiActivity.this,mHandler);
 					Thread	newThread = new Thread(huanyuand);					
 					newThread.start();
 
@@ -83,7 +83,7 @@ public class InstallActivity extends Activity
 				public void onClick(View v)
 				{
 					Intent intent=new Intent();
-					intent.setClass(InstallActivity.this, BangZhu.class);
+					intent.setClass(SheZhiActivity.this, BangZhu.class);
 					startActivity(intent);
 				}
 			});
@@ -102,7 +102,7 @@ public class InstallActivity extends Activity
 				public void onClick(View v)
 				{
 					Intent intent=new Intent();
-					intent.setClass(InstallActivity.this, GuanYu.class);
+					intent.setClass(SheZhiActivity.this, GuanYu.class);
 					startActivity(intent);
 				}
 			});
@@ -111,7 +111,7 @@ public class InstallActivity extends Activity
 				public void onClick(View v)
 				{
 					Intent intent=new Intent();
-					intent.setClass(InstallActivity.this,UserActivity.class);
+					intent.setClass(SheZhiActivity.this,UserActivity.class);
 					startActivity(intent);
 				}
 			});

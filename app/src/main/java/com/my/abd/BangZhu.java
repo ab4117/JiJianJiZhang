@@ -5,7 +5,11 @@ import android.os.*;
 import android.view.*;
 import android.widget.*;
 import android.view.View.OnClickListener;
-/**帮助界面*/
+/* 作者：天下
+*  类的说明：帮助界面
+*  创建日期：2017/2/11 21:19
+*  修改日期：2017/2/11 21:19
+*/
 public class BangZhu extends Activity
 {
     /** Called when the activity is first created. */
